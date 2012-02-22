@@ -24,6 +24,7 @@
 	More about this license: http://www.gnu.org/licenses/gpl.html
 */
 
+qa_register_plugin_module('module', 'qa-markdown-admin.php', 'qa_markdown_admin', 'Markdown Admin');
 qa_register_plugin_module('editor', 'qa-markdown-editor.php', 'qa_markdown_editor', 'Markdown Editor');
 qa_register_plugin_module('viewer', 'qa-markdown-viewer.php', 'qa_markdown_viewer', 'Markdown Viewer');
 qa_register_plugin_layer('qa-markdown-layer.php', 'Markdown Layer');	
