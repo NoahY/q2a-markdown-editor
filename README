@@ -13,7 +13,7 @@ INSTALLATION
 -------------------------------------------------
 
 1. Download and extract the `markdown-editor` folder to the `qa-plugins` folder in your Q2A installation.
-2. Copy the CSS from sample.css to the bottom of your theme's current stylesheet.
+2. It is not necessary to copy the css for this version; if you have it in your theme file, you can safely remove it.
 3. Log in to your Q2A site as a Super Administrator and head to Admin > Posting.
 4. Set the default editor for questions and answers to 'Markdown Editor'. (The editor does also work for comments, but I would recommend sticking to plain text.)
 
