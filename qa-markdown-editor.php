@@ -43,7 +43,7 @@ class qa_markdown_editor
 
 	function read_post($fieldname)
 	{
-		$html=qa_post_text($fieldname);
+		$html=$_POST[$fieldname];
 
 		return array(
 			'format' => 'markdown',
