@@ -9,7 +9,7 @@
 	Plugin Author: Scott Vivian, adapted by NoahY
 	Plugin Author URI: http://www.codelair.co.uk/
 	Plugin License: GPLv3
-	Plugin Minimum Question2Answer Version: 1.3NY1
+	Plugin Minimum Question2Answer Version: 1.3NY2
 
 	This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by

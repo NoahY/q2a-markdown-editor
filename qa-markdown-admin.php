@@ -75,10 +75,6 @@
 					
 				'fields' => $fields,
 				
-				'hidden' => array(
-					'network_site_number' => $idx
-				),
-				 
 				'buttons' => array(
 					array(
 					'label' => qa_lang_html('main/save_button'),
