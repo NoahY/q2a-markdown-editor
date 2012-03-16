@@ -12,7 +12,7 @@
 				include(QA_HTML_THEME_LAYER_DIRECTORY.'css/'.qa_opt('markdown_css_style'));
 				$this->output('</style>');
 				$this->output('<script type="text/javascript">');
-				include(QA_HTML_THEME_LAYER_DIRECTORY.'wmd/highlight.js');
+				include(QA_HTML_THEME_LAYER_DIRECTORY.'highlight.js');
 				$this->output('</script>');
 				$this->output('<script type="text/javascript">
 				$("document").ready(function(){ 
