@@ -1,6 +1,6 @@
 <?php
 /*
-	Question2Answer Markdown editor plugin, v1.0
+	Question2Answer Markdown editor plugin, v2
 	License: http://www.gnu.org/licenses/gpl.html
 */
 
@@ -28,7 +28,6 @@ class qa_markdown_viewer
 
 		require_once $this->path . 'inc.markdown.php';
 		$html = Markdown( $content );
-// 		$html = $content;
 		return qa_sanitize_html($html);
 	}
 
@@ -41,4 +40,3 @@ class qa_markdown_viewer
 	}
 
 }
-
