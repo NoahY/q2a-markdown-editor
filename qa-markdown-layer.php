@@ -5,7 +5,7 @@
 		function head_custom() {
 			qa_html_theme_base::head_custom();
 			$this->output('<style>');
-			include(QA_HTML_THEME_LAYER_DIRECTORY.'wmd/wmd.css');
+			include(QA_HTML_THEME_LAYER_DIRECTORY.'pagedown/sample.css');
 			$this->output('</style>');
 			if(qa_opt('markdown_css_enable')) {
 				$this->output('<style>');
