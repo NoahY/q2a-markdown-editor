@@ -7,7 +7,7 @@
 			$this->output('<style>');
 			include(QA_HTML_THEME_LAYER_DIRECTORY.'pagedown/sample.css');
 			$this->output('</style>');
-			if(qa_opt('markdown_css_enable') && in_array($this->template,'question','ask')) {
+			if(qa_opt('markdown_css_enable') && in_array($this->template,array('question','ask'))) {
 				$this->output('<style>');
 				include(QA_HTML_THEME_LAYER_DIRECTORY.'css/'.qa_opt('markdown_css_style'));
 				$this->output('</style>');
