@@ -3,7 +3,7 @@
 	Plugin Name: Markdown Editor
 	Plugin URI: https://github.com/svivian/q2a-markdown-editor
 	Plugin Description: Markdown plugin for simple text-based markup
-	Plugin Version: 2
+	Plugin Version: 2NY1
 	Plugin Date: 2011-07-15
 	Plugin Author: Scott Vivian
 	Plugin Author URI: http://codelair.co.uk/
@@ -32,3 +32,5 @@ if ( !defined('QA_VERSION') )
 
 qa_register_plugin_module('editor', 'qa-markdown-editor.php', 'qa_markdown_editor', 'Markdown Editor');
 qa_register_plugin_module('viewer', 'qa-markdown-viewer.php', 'qa_markdown_viewer', 'Markdown Viewer');
+qa_register_plugin_module('viewer', 'qa-markdown-viewer.php', 'qa_markdown_viewer', 'Markdown Viewer');
+qa_register_plugin_layer('qa-markdown-layer.php', 'Markdown Layer');	
